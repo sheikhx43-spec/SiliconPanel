@@ -1,13 +1,13 @@
-<h1 align="center"><a href="https://www.hestiacp.com/">Hestia Control Panel</a></h1>
+<h1 align="center"><a href="https://www.siliconpanel.com/">Silicon Panel</a></h1>
 
 ![HestiaCP Web Interface screenshot](https://storage.hestiacp.com/hestiascreen.png)
 
-<h2 align="center">Lightweight and powerful control panel for the modern web</h2>
+<h2 align="center">Ultrafast Web Hosting Control Panel</h2>
 
-<p align="center"><strong>Latest stable release:</strong> Version 1.9.4 | <a href="https://github.com/hestiacp/hestiacp/blob/release/CHANGELOG.md">View Changelog</a></p>
+<p align="center"><strong>Latest stable release:</strong> Version 0.0.1 | <a href="https://github.com/hestiacp/hestiacp/blob/release/CHANGELOG.md">View Changelog</a></p>
 
 <p align="center">
-	<a href="https://www.hestiacp.com/">HestiaCP.com</a> |
+	<a href="https://www.siliconpanel.com/">SiliconPanel.com</a> |
 	<a href="https://docs.hestiacp.com/">Documentation</a> |
 	<a href="https://forum.hestiacp.com/">Forum</a>
 	<br/><br/>
@@ -138,4 +138,4 @@ If you would like to contribute to the project, please [read our Contribution Gu
 
 ## License
 
-Hestia Control Panel is licensed under [GPL v3](https://github.com/hestiacp/hestiacp/blob/release/LICENSE) license, and is based on the [VestaCP](https://vestacp.com/) project.<br>
+Silicon Panel is licensed under [GPL v3](https://github.com/hestiacp/hestiacp/blob/release/LICENSE) license, and is based on the [HestiaCP](https://hestiacp.com/) project.<br>
