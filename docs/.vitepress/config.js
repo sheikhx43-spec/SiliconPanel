@@ -3,18 +3,32 @@ import { version } from '../../package.json';
 
 export default defineConfig({
 	lang: 'en-US',
-	title: 'Hestia Control Panel',
-	description: 'Open-source web server control panel.',
+	title: 'SILICON PANEL',
+	description:
+		'Modern web hosting control panel powered by Silicon Empire Ltd and authored by Md Mainul Hasan.',
 
 	lastUpdated: true,
 	cleanUrls: false,
+
+	vite: {
+		server: {
+			host: '0.0.0.0',
+			port: 3000,
+			allowedHosts: true,
+		},
+		preview: {
+			host: '0.0.0.0',
+			port: 3000,
+			allowedHosts: true,
+		},
+	},
 
 	head: [
 		['link', { rel: 'icon', sizes: 'any', href: '/favicon.ico' }],
 		['link', { rel: 'icon', type: 'image/svg+xml', sizes: '16x16', href: '/logo.svg' }],
 		['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }],
 		['link', { rel: 'manifest', href: '/site.webmanifest' }],
-		['meta', { name: 'theme-color', content: '#b7236a' }],
+		['meta', { name: 'theme-color', content: '#0a0d13' }],
 	],
 
 	themeConfig: {
@@ -23,9 +37,7 @@ export default defineConfig({
 		nav: nav(),
 
 		socialLinks: [
-			{ icon: 'github', link: 'https://github.com/hestiacp/hestiacp' },
-			{ icon: 'twitter', link: 'https://twitter.com/HestiaPanel' },
-			{ icon: 'facebook', link: 'https://www.facebook.com/hestiacp' },
+			{ icon: 'github', link: 'https://github.com/sheikhx43-spec/SiliconPanel' },
 		],
 
 		sidebar: { '/docs/': sidebarDocs() },
@@ -33,19 +45,13 @@ export default defineConfig({
 		outline: [2, 3],
 
 		editLink: {
-			pattern: 'https://github.com/hestiacp/hestiacp/edit/main/docs/:path',
+			pattern: 'https://github.com/sheikhx43-spec/SiliconPanel/edit/main/docs/:path',
 			text: 'Edit this page on GitHub',
 		},
 
 		footer: {
-			message: 'Released under the GPLv3 License.',
-			copyright: 'Copyright © 2019-present Hestia Control Panel',
-		},
-
-		algolia: {
-			appId: 'V04P0P5D2R',
-			apiKey: '7a90a3ac7f9313f174c50b0f301f7ec6',
-			indexName: 'hestia_cp',
+			message: 'Powered by Silicon Empire Ltd · Authored by Md Mainul Hasan · GPLv3.',
+			copyright: 'Copyright © 2026-present Silicon Empire Ltd',
 		},
 	},
 });
@@ -53,27 +59,25 @@ export default defineConfig({
 /** @returns {import("vitepress").DefaultTheme.NavItem[]} */
 function nav() {
 	return [
+		{ text: 'Dashboard', link: '/' },
 		{ text: 'Features', link: '/features' },
 		{ text: 'Install', link: '/install' },
 		{ text: 'Documentation', link: '/docs/introduction/getting-started', activeMatch: '/docs/' },
 		{ text: 'Team', link: '/team' },
-		{ text: 'Demo', link: 'https://demo.hestiacp.com:8083/' },
-		{ text: 'Forum', link: 'https://forum.hestiacp.com/' },
-		{ text: 'Donate', link: '/donate' },
 		{
 			text: `v${version}`,
 			items: [
 				{
 					text: 'Changelog',
-					link: 'https://github.com/hestiacp/hestiacp/blob/main/CHANGELOG.md',
+					link: 'https://github.com/sheikhx43-spec/SiliconPanel/blob/main/CHANGELOG.md',
 				},
 				{
 					text: 'Contributing',
-					link: 'https://github.com/hestiacp/hestiacp/blob/main/CONTRIBUTING.md',
+					link: 'https://github.com/sheikhx43-spec/SiliconPanel/blob/main/CONTRIBUTING.md',
 				},
 				{
 					text: 'Security policy',
-					link: 'https://github.com/hestiacp/hestiacp/blob/main/SECURITY.md',
+					link: 'https://github.com/sheikhx43-spec/SiliconPanel/blob/main/SECURITY.md',
 				},
 			],
 		},

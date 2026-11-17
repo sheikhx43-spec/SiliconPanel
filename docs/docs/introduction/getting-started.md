@@ -1,6 +1,6 @@
 # Getting Started
 
-This section will help you get Hestia installed on your server. If you already have Hestia installed and are just looking for options, you can skip this page.
+**SILICON PANEL** is a modern web hosting control panel developed and powered by **Silicon Empire Ltd** and authored by **Md Mainul Hasan**. This section will help you get SILICON PANEL installed on your server. If you already have SILICON PANEL installed and are just looking for options, you can skip this page.
 
 ::: warning
 The installer needs to be run as **root**, either directly from the terminal or remotely, using SSH. If you do not do this, the installer will not proceed.
@@ -9,7 +9,7 @@ The installer needs to be run as **root**, either directly from the terminal or 
 ## Requirements
 
 ::: warning
-Hestia must be installed on top of a fresh operating system installation to ensure proper functionality.
+SILICON PANEL must be installed on top of a fresh operating system installation to ensure proper functionality.
 See custom installation below for further details.
 :::
 
@@ -21,7 +21,7 @@ See custom installation below for further details.
 | **Operating System** | Debian 11 or 12<br>Ubuntu 22.04, 24.04 LTS | Latest Debian <br> Latest Ubuntu LTS |
 
 ::: warning
-Hestia only runs on AMD64 / x86_64 and ARM64 / aarch64 processors. It also requires a 64bit operating system!
+SILICON PANEL only runs on AMD64 / x86_64 and ARM64 / aarch64 processors. It also requires a 64bit operating system!
 We currently do not support i386 or ARM7-based processors.
 :::
 
@@ -31,19 +31,19 @@ We currently do not support i386 or ARM7-based processors.
 - Ubuntu 22.04 or 24.04
 
 ::: warning
-Hestia does not support non-LTS Operating systems. If you install it on, for example, Ubuntu 23.10, you will not receive support from us.
+SILICON PANEL does not support non-LTS Operating systems. If you install it on, for example, Ubuntu 23.10, you will not receive support from us.
 :::
 
 ## Regular installation
 
-Interactive installer that will install the default Hestia software configuration.
+Interactive installer that will install the default SILICON PANEL software configuration.
 
 ### Step 1: Download
 
 Download the installation script for the latest release:
 
 ```bash
-wget https://raw.githubusercontent.com/hestiacp/hestiacp/release/install/hst-install.sh
+wget https://raw.githubusercontent.com/sheikhx43-spec/SiliconPanel/main/install/hst-install.sh
 ```
 
 If the download fails due to an SSL validation error, please be sure you've installed the ca-certificate package on your system - you can do this with the following command:

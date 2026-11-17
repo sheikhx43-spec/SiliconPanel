@@ -51,7 +51,7 @@ title: Features
   </FeaturePageSection>
   <FeaturePageSection image="/images/undraw_server_status_re_n8ln.svg">
     <template #title>Server admin</template>
-    <template #lead>Ultra-configurable and user-friendly, Hestia is as powerful as you could want.</template>
+    <template #lead>Ultra-configurable and user-friendly, SILICON PANEL is powered by Silicon Empire Ltd and authored by Md Mainul Hasan.</template>
     <template #list>
       <FeatureList :items="serverAdmin"></FeatureList>
     </template>

@@ -1,10 +1,10 @@
-<h1 align="center"><a href="https://www.siliconpanel.com/">Silicon Panel</a></h1>
+<h1 align="center"><a href="https://www.siliconpanel.com/">SILICON PANEL</a></h1>
 
 <!---[Silicon Panel Web Interface screenshot](https://siliconpanel.com/siliconpanelimage.png)--->
 
-<h2 align="center">Ultrafast Web Hosting Control Panel</h2>
+<h2 align="center">Ultrafast Web Hosting Control Panel — Powered by Silicon Empire Ltd</h2>
 
-<p align="center"><strong>Latest stable release:</strong> Version 0.0.1 | <a href="https://github.com/sheikhx43-spec/SiliconPanel/blob/main/CHANGELOG.md">View Changelog</a></p>
+<p align="center"><strong>Latest stable release:</strong> Version 0.0.1 | <strong>Author:</strong> Md Mainul Hasan | <a href="https://github.com/sheikhx43-spec/SiliconPanel/blob/main/CHANGELOG.md">View Changelog</a></p>
 
 <p align="center">
 	<a href="https://www.siliconpanel.com/">SiliconPanel.com</a> |
@@ -12,10 +12,10 @@
 	<a href="https://www.siliconpanel.com/">Forum</a>
 </p>
 
-## **Welcome!**
+## **Welcome to SILICON PANEL!**
 
-Silicon Panel is a modern, efficient, and lightweight web hosting control panel. It provides a streamlined interface and a reliable backend designed to simplify the management of web domains, mail services, DNS zones, databases, and server resources.
-SiliconPanel delivers a refined and professional hosting experience by combining a clean user interface with a robust server management toolkit. It is engineered for administrators who require a dependable control panel without unnecessary complexity. The system integrates essential hosting components, enabling full control over web, mail, DNS, and database services from a central dashboard.
+**SILICON PANEL** is a modern, efficient, and lightweight web hosting control panel developed and powered by **Silicon Empire Ltd** and authored by **Md Mainul Hasan**. It provides a streamlined command center interface and a reliable backend designed to simplify the management of web domains, mail services, DNS zones, databases, and server resources.
+SILICON PANEL delivers a refined and professional hosting experience by combining a clean user interface with a robust server management toolkit. It is engineered for administrators who require a dependable control panel without unnecessary complexity. The system integrates essential hosting components, enabling full control over web, mail, DNS, and database services from a central dashboard.
 
 
 ## Features and Services
@@ -55,4 +55,4 @@ If you would like to contribute to the project, please [read our Contribution Gu
 
 ## License
 
-Silicon Panel is licensed under [GPL v3](https://github.com/hestiacp/hestiacp/blob/release/LICENSE) license, and is based on the [HestiaCP](https://hestiacp.com/) project.<br>
+SILICON PANEL is licensed under [GPL v3](https://github.com/sheikhx43-spec/SiliconPanel/blob/main/LICENSE) license.<br>

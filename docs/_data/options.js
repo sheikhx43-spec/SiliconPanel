@@ -2,7 +2,7 @@ export const options = [
 	{
 		flag: 'port',
 		label: 'Port',
-		description: 'Change the port Hestia uses',
+		description: 'Change the port SILICON PANEL uses',
 		type: 'text',
 		default: '8083',
 	},
